@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal Aplikasi SDIT</title>
+    <title>Portal SDIT Daarul Hasanah</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,52 +12,38 @@
 
     <div class="header">
         <h1>SDIT Daarul Hasanah</h1>
-        <p>Portal Aplikasi Sekolah Digital</p>
+        <p>Portal Aplikasi Administrasi Sekolah</p>
     </div>
 
     <div class="menu">
 
-        <!-- LINK 1 -->
-        <a href="bukaAplikasi('https://google.com')" class="card">
-            <div class="icon">📄</div>
-            <h2>Surat Keterangan Aktif</h2>
-            <p>Aplikasi pembuatan surat siswa otomatis</p>
-            <span>Kunjungi</span>
-        </a>
+        <button class="card" onclick="bukaWeb('https://mujahidcorporation.github.io/Persuratan/')">
+            📄
+            <h3>PERSURATAN</h3>
+            <p>Kelola surat administrasi sekolah</p>
+        </button>
 
-        <!-- LINK 2 -->
-        <a href="#" onclick="bukaAplikasi('https://mujahidcorporation.github.io/SDIT_Daarul_Hasanah/')" class="card">
-            <div class="icon">🎓</div>
-            <h2>Pengumuman Kelulusan</h2>
-            <p>Cek hasil kelulusan siswa secara online</p>
-            <span>Kunjungi</span>
-        </a>
+        <button class="card" onclick="bukaWeb('https://mujahidcorporation.github.io/Izin_Keluar_Sekolah_Dan_Insiden_Sekolah/')">
+            🏫
+            <h3>IZIN & INSIDEN</h3>
+            <p>Input izin keluar & laporan insiden</p>
+        </button>
 
-        <!-- LINK 3 (BISA TAMBAH TERUS) -->
-        <a href="#" onclick="bukaAplikasi('https://domain-surat-aktif.com')" class="card">
-            <div class="icon">📝</div>
-            <h2>PPDB Online</h2>
-            <p>Pendaftaran peserta didik baru</p>
-            <span>Kunjungi</span>
-        </a>
+        <button class="card" onclick="bukaWeb('https://mujahidcorporation.github.io/Prestasi/')">
+            🏆
+            <h3>INPUT PRESTASI</h3>
+            <p>Rekap data prestasi siswa</p>
+        </button>
 
     </div>
-     <!-- VIEWER -->
-  <div class="viewer" id="viewer">
 
-    <div class="navbar">
-        <div class="title">SDIT DAARUL HASANAH</div>
-        <button class="back-btn" onclick="kembaliMenu()">← Kembali</button>
-    </div>
-
-    <iframe id="frame"></iframe>
-
-</div>
     <div class="footer">
-        © 2026 SDIT Daarul Hasanah - All Rights Reserved
+        © 2026 SDIT Daarul Hasanah
     </div>
 
 </div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
